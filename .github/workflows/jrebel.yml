@@ -10,14 +10,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Pull
         uses: actions/checkout@v3
         with:
           persist-credentials: true # false 是用 personal token，true 是使用 GitHub token
           fetch-depth: 0
 
-      - uses: actions/checkout@v3
-      - name: Build the site in the jekyll/builder container
+      - name: Build
         run: |
           docker run \
           -v ${{ github.workspace }}:/opt \
