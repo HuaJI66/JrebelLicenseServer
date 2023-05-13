@@ -2,7 +2,7 @@
 
 A license server for Jrebel & JetBrains products, it also support JRebel for Android and XRebel.
 
-Forked from [JrebelLicenseServer](https://github.com/SpectatorWjx/JrebelLicenseServer)
+Forked from [JrebelLicenseServerforJava](https://gitee.com/gsls200808/JrebelLicenseServerforJava)
 
 ***
 Thank ilanyu
