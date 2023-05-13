@@ -7,7 +7,7 @@ Forked from [JrebelLicenseServer](https://github.com/SpectatorWjx/JrebelLicenseS
 ***
 Thank ilanyu
 
-This repository only provide complied jar file.
+This repository only provides complied jar file.
 
 NOTE: This is provided for educational purposes only. Please support genuine.
 
