@@ -1,0 +1,36 @@
+name: Build & Release
+
+on:
+  push:
+    branches: [ master ]
+
+permissions: write-all
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true # false 是用 personal token，true 是使用 GitHub token
+          fetch-depth: 0
+
+      - uses: actions/checkout@v3
+      - name: Build the site in the jekyll/builder container
+        run: |
+          docker run \
+          -v ${{ github.workspace }}:/opt \
+          maven:3.8.6-openjdk-8 /bin/bash -c "chmod 777 -R /opt && cd /opt && mvn package"
+
+      - name: Release HuaJi66 GitHub IO
+        id: release
+        uses: softprops/action-gh-release@v1
+#        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          tag_name: v1.0.0
+          files: target/JrebelLicenseServer-1.0.jar
+          body_path: CHANGELOG.txt
+          # note you'll typically need to create a personal access token
+          # with permissions to create releases in the other repo
+          token: ${{ github.token }}
