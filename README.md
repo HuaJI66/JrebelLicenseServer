@@ -18,7 +18,7 @@ Run:
 ```
 cd /path/to/project
 mvn compile 
-mvn exec:java -Dexec.mainClass="com.delpast.server.MainServer" -Dexec.args="-p 8081"
+mvn exec:java -Dexec.mainClass="com.delpast.server.MainServer" -Dexec.args="-p 1314"
 ```
 Packing a runnable jar:
 ```
@@ -26,15 +26,15 @@ mvn package
 ```
 then
 ```
-java -jar JrebelBrainsLicenseServerforJava-1.0-SNAPSHOT.jar -p 8081
+java -jar JrebelBrainsLicenseServerforJava-1.0-SNAPSHOT.jar -p 1314
 ```
-default port is 8081.
+default port is 1314.
 
 Or use gradle
 ```
 gradle shadowJar
 
-java -jar JrebelBrainsLicenseServerforJava-1.0-SNAPSHOT.jar -p 8081
+java -jar JrebelBrainsLicenseServerforJava-1.0-SNAPSHOT.jar -p 1314
 ```
 ## Docker
 Build image
@@ -60,4 +60,4 @@ JetBrains Products
 
 ## Feedback
 
-+ issue: https://gitee.com/gsls200808/JrebelLicenseServerforJava/issues
++ issue: https://github.com/HuaJI66/JrebelLicenseServer/issues

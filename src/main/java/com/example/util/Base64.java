@@ -1,10 +1,10 @@
-package com.delpast.util;
+package com.example.util;
 
 
 public class Base64 {
 	/**
 	 * 编码
-	 * 
+	 *
 	 * @param bstr
 	 * @return String
 	 */
@@ -14,7 +14,7 @@ public class Base64 {
 
 	/**
 	 * 解码
-	 * 
+	 *
 	 * @param str
 	 * @return string
 	 */

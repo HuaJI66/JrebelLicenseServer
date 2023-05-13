@@ -1,8 +1,7 @@
-package com.delpast.handler;
+package com.example.handler;
 
 import org.eclipse.jetty.server.Request;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.UUID;

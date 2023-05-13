@@ -1,4 +1,4 @@
-package com.delpast.handler;
+package com.example.handler;
 
 import org.eclipse.jetty.server.Request;
 

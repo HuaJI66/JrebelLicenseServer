@@ -1,13 +1,12 @@
-package com.delpast.handler;
+package com.example.handler;
 
-import com.delpast.util.RsaSign;
+import com.example.util.RsaSign;
 import org.eclipse.jetty.server.Request;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Locale;
 
 public class JetBrainsHandler {
