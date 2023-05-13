@@ -1,4 +1,4 @@
-package com.example.util.JrebelUtil;
+package com.delpast.util.JrebelUtil;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 

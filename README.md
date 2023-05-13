@@ -26,7 +26,7 @@ mvn package
 ```
 then
 ```
-java -jar JrebelBrainsLicenseServerforJava-1.0-SNAPSHOT.jar -p 1314
+java -jar JrebelBrainsLicenseServerforJava-1.0.jar -p 1314
 ```
 default port is 1314.
 
@@ -34,7 +34,7 @@ Or use gradle
 ```
 gradle shadowJar
 
-java -jar JrebelBrainsLicenseServerforJava-1.0-SNAPSHOT.jar -p 1314
+java -jar JrebelBrainsLicenseServerforJava-1.0.jar -p 1314
 ```
 ## Docker
 Build image

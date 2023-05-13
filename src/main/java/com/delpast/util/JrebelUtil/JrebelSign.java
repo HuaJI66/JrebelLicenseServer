@@ -1,4 +1,4 @@
-package com.example.util.JrebelUtil;
+package com.delpast.util.JrebelUtil;
 
 import org.apache.commons.lang3.StringUtils;
 

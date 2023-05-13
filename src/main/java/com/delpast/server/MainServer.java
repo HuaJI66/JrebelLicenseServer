@@ -1,9 +1,9 @@
-package com.example.server;
+package com.delpast.server;
 
-import com.example.handler.IndexHandler;
-import com.example.handler.JetBrainsHandler;
-import com.example.handler.JrebelHandler;
-import com.example.handler.ToolHandler;
+import com.delpast.handler.IndexHandler;
+import com.delpast.handler.JetBrainsHandler;
+import com.delpast.handler.JrebelHandler;
+import com.delpast.handler.ToolHandler;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.AbstractHandler;

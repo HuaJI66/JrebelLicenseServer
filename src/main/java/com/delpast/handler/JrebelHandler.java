@@ -1,6 +1,6 @@
-package com.example.handler;
+package com.delpast.handler;
 
-import com.example.util.JrebelUtil.JrebelSign;
+import com.delpast.util.JrebelUtil.JrebelSign;
 import net.sf.json.JSONObject;
 import org.eclipse.jetty.server.Request;
 

@@ -1,4 +1,4 @@
-package com.example.util;
+package com.delpast.util;
 
 import org.bouncycastle.asn1.ASN1InputStream;
 import org.bouncycastle.asn1.ASN1Primitive;
