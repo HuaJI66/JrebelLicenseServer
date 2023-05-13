@@ -9,7 +9,7 @@ Thank ilanyu
 
 This repository only provides complied jar file.
 
-Download latest [Releases](https://github.com/HuaJI66/JrebelActivateServer/releases)
+Download latest [Releases](https://github.com/HuaJI66/JrebelLicenseServer/releases)
 
 NOTE: This is provided for educational purposes only. Please support genuine.
 
