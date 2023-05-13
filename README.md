@@ -2,11 +2,17 @@
 
 A license server for Jrebel & JetBrains products, it also support JRebel for Android and XRebel.
 
+Forked from [JrebelLicenseServer](https://github.com/SpectatorWjx/JrebelLicenseServer)
+
 ***
 Thank ilanyu
 
+This repository only provide complied jar file.
+
 NOTE: This is provided for educational purposes only. Please support genuine.
+
 ***
+
 ## Setup
 Run:
 ```
@@ -41,7 +47,7 @@ start container
 ```
 docker run -d --name jrebel-ls --restart always -e PORT=9001 -p 9001:9001 jrebel-ls
 ```
-default port is 8081,you can modify it
+default port is 1314,you can modify it
 ## Support
 
 Jrebel
@@ -55,4 +61,3 @@ JetBrains Products
 ## Feedback
 
 + issue: https://gitee.com/gsls200808/JrebelLicenseServerforJava/issues
-+ QQ Group: 527290836
